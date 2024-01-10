@@ -12,5 +12,5 @@ app.get('/', (req, res) => {
 
 // Inicia o servidor na porta 3000 e define uma função de retorno de chamada
 app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000')
+    console.log('novo servidor Servidor rodando na porta 3000')
 })
