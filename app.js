@@ -1,6 +1,7 @@
 // Importa o módulo 'express' para criar um aplicativo Express
 const express = require("express")
 const checkilistRouter = require("./src/routers/checklist")
+require('./config/database')
 
 const app = express()
 app.use(express.json())
